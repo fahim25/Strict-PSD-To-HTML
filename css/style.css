@@ -28,12 +28,21 @@ section{
 .header-section{
     width: 100%;
     background: #f6f9f9;
-}
-.logo{
-    width: 100%;
-    padding: 12px 0px;   
+    z-index: 15;
 }
 
+.navbar .nav-link{
+    font-size: 16px;
+    font-weight: 600;
+    color: #000 !important;
+    margin-left: 30px;
+    transition: 300ms ease;
+}
+
+.navbar .nav-link:active,
+.navbar .nav-link:hover{
+    color: #15a4fa !important;
+}
 .btn-inf{
     padding: 10px 35px;
     font-size: 14px;
